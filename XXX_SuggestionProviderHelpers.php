@@ -126,10 +126,7 @@ abstract class XXX_SuggestionProviderHelpers
 	public static function processRawSuggestions ($valueAskingSuggestions, $rawSuggestions, $maximum, $dataType)
 	{
 		$maximum = XXX_Default::toPositiveInteger($maximum, 0);
-		
-		
-		
-		
+				
 		$querySearchMatcher = XXX_String_Search::getSearchMatcher($valueAskingSuggestions, true);
 		
 		$processedSuggestions = array();
