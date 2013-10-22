@@ -36,25 +36,6 @@ abstract class XXX_SuggestionProvider
 			$processedSuggestion['suggestedValue'] = $valueAskingSuggestions . $processedSuggestion['complement'];
 			$processedSuggestion['data'] = array();
 			
-			/*
-			complement
-	""
-	
-data
-	Object { ID=723789242, value="AMS - Amsterdam Airport Schiphol", dataType="serviceLocation"}
-	
-index
-	0
-	
-label
-	"<b>AMS</b> - <b>Ams</b>terdam Airport Schiphol"
-	
-suggestedValue
-	"AMS - Amsterdam Airport Schiphol"
-	
-valueAskingSuggestions
-	"ams"*/
-			
 			$processedSuggestions[] = $processedSuggestion;
 			
 			if ($maximum > 0 && XXX_Array::getFirstLevelItemTotal($processedSuggestions) == $maximum)
@@ -419,7 +400,6 @@ XXX_SuggestionProvider.prototype.completedResponseHandler = function (suggestion
 		}
 	}
 };
-
 
 */
 		
