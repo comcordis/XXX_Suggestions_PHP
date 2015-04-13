@@ -1,0 +1,6 @@
+project:XXX_Suggestions_PHP
+deployEnvironment:development
+checkout:master
+commitHash:0a3d6ecb507bcf0a5d205dd2fec5594dc94c2194
+timestamp:2015-04-13T09:46:07Z
+deployer:operations
